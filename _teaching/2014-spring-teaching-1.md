@@ -1,20 +1,18 @@
 ---
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+layout: archive
+title: ""
+permalink: /teaching/
+author_profile: true
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+{% include base_path %}
+### Teaching Assistantship 
 
-Heading 1
-======
+| Duration            | Course Name                              | Course Instructor                                                |
+|---------------------|------------------------------------------|------------------------------------------------------------------|
+| July - Nov, 2023    | AM5010: Biomechanics                     | Dr. Varadhan SKM, Indian Institute of Technology, Madras         |
+| Jan - April, 2024   | NPTEL noc24_bt06: Biomechanics           | Dr. Varadhan SKM, Indian Institute of Technology, Madras         |
+| Jan - April, 2024   | Applied Linear Algebra for Data Analysis | Dr. Sivakumar Balasubramanian, Christian Medical College, Vellore |
+| Feb - Mar, 2024     | NPTEL noc24_bt38: Classics in Neuroscience | Dr. Varadhan SKM, Indian Institute of Technology, Madras         |
 
-Heading 2
-======
 
-Heading 3
-======
