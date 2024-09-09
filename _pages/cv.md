@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+| Degree  | University  | Details  |
+|---------|--------------|----------|
+| PhD(Ongoing)| IIT Madras (Neuromechanics lab) & <br> CMC Vellore (Biorehab group) | Topic: Machine learning models for arm-use assessment in Stroke using wearable sensors.<br>Advisors: [Dr Varadhan SKM](https://home.iitm.ac.in/nml/VSKM.html), [Dr Sivakumar Balasubramanian](https://siva82kb.github.io/) |
+| M.Sc.   | Technical University, Berlin | Thesis: The formation of positive prediction-error neurons in heterogeneous interneuron circuits.<br>Advisors: [Prof. Henning Sprekeler](https://www.sprekelerlab.org/henning/), [Dr Loreen Hertäg](https://www.sprekelerlab.org/loreen/) |
+| M.Tech  | ASE, Bangalore | Computer Science and Engineering |
+| B.Tech  | University of Kerala | Information Technology |
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+### Awards and Scholarships
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+|PMRF Fellowship, Govt. of India, July 2023 - Present, Chennai, India|
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+|PG Scholarship (GATE/GPAT), AICTE, Govt. of India.  Aug 2014 - 2016  Bangalore, India|
+
+|Gold Medal, University First Rank, M. Tech.  Aug 2016  Bangalore, India|
+
+### Work experience
+
+| Role         | Organization | Duration | Details |
+|--------------|--------------|----------|---------|
+| Internship - Lab Rotation Student | Technische Universität, Berlin | Apr - Oct, 2020 | Reproduction of computational studies on ’auditory cortex’ and ’presynaptic inhibition’ from scratch, using Python and numba. Labs: [Neural Information Processing Group](https://www.tu.berlin/ni) and [Modelling of Cognitive Processes group](https://www.sprekelerlab.org/research/) |
+| Internship - Lab Rotation Student | Charité-Universitätsmedizin, Berlin | Apr - Jul, 2019 | Convolutional neural networks for predicting gender from resting state-fMRI connectome data and visualization of the connectivity edges that led to gender differentiation in the model, using PyTorch. Lab: [Machine learning in Clinical Neuroimaging](https://psychiatrie-psychotherapie.charite.de/en/research/translation_and_neurotechnology/machine_learning/) |
+| Internship - Tech Grad Intern | Cisco Systems Ltd, Bangalore | Feb – Jun, 2016 | Development of user-interface and database of a desktop application for an in-house schematic modelling analysis tool |
