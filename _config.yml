@@ -4,7 +4,7 @@ title                    : "Home"
 title_separator          : "-"
 name                     : &name ""
 description              : &description "personal description"
-url                      : https://parvathyneelakandan.github.io 
+url                      : 
 repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
