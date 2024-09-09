@@ -39,3 +39,89 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Futura:wght@400&display=swap');
+
+/* Style for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.3; /* Adjust line height for readability */
+    color: #fcbf49; 
+}
+
+/* Style for paragraphs */
+p, ul, li {
+    font-family: 'Futura', sans-serif; /* Use Futura for paragraphs */
+    line-height: 1.6; /* Improved line height for readability */
+    color: #ffffff;     
+    text-align: justify;
+    font-size: 1em;
+}
+
+/* Adjust font sizes */
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1em; }
+h5 { font-size: .75em; }
+h6 { font-size: 0.5em; }
+
+
+
+/* Style the horizontal rule (line) */
+hr {
+    border: none; /* Remove default border */
+    border-top: 2px solid #f3f5f7; /* Prussian Blue line */
+    margin: 20px 0; /* Add spacing around the line */
+}
+
+
+/* Assuming the background is applied to body or a specific section */
+body {
+    background-color: #003153; /* Prussian Blue */
+    color: white; /* Set font color to white */
+}
+
+/* Alternatively, if the background is applied to a specific section, you can target that section */
+.section-with-blue-background {
+    background-color: #003153; /* Prussian Blue */
+    color: white; /* Set font color to white */
+}
+
+/* Change icon color to white */
+.icon, .fa, .academicons {
+    color: white !important;
+}
+
+.fab.fa-github {
+    color: white !important;
+}
+
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    word-wrap: break-word; /* Ensures long text wraps */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family: 'Futura', sans-serif;
+    font-size: 14px;
+}
+
+th {
+    background-color: #003153;
+    color: #fcbf49;
+}
+
+td {
+    background-color: #003153;
+    color: white;
+}
+
