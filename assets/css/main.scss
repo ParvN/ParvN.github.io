@@ -98,7 +98,7 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    word-wrap: break-word; /* Ensures long text wraps */
+    word-wrap: break-word; 
 }
 
 th, td {
@@ -117,5 +117,8 @@ th {
 td {
     background-color: #003153;
     color: white;
+}
+th, td, table {
+    border: none; 
 }
 
